@@ -22,6 +22,7 @@ void grid()
     y += gap;
     gap += 2;
   }
+  //Road
   line(320,550,390,400);
   line(480,550,410,400);
   fill(0);
@@ -31,6 +32,7 @@ void grid()
   vertex(410,400);
   vertex(480,550);
   endShape();
+  line(400,550,400,400);
 }
 void sun()
 {
