@@ -60,6 +60,13 @@ void carHud()
   vertex(720,100);
   vertex(1000,0);
   endShape();
+  fill(0);
+  rect(150,570,180,50);
+  fill(255,192,203);
+  rect(160,600,10,10);
+  rect(160,590,100,10);
+  textSize(22);
+  text("88",280,605);
 }
 void draw()
 {
