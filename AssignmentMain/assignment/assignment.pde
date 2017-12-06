@@ -22,6 +22,15 @@ void grid()
     y += gap;
     gap += 2;
   }
+  line(320,550,390,400);
+  line(480,550,410,400);
+  fill(0);
+  beginShape();
+  vertex(320,550);
+  vertex(390,400);
+  vertex(410,400);
+  vertex(480,550);
+  endShape();
 }
 void sun()
 {
@@ -36,10 +45,10 @@ void carHud()
 {
   fill(234,106,6);
   beginShape();
-  vertex(-200,800);
+  vertex(-700,800);
   vertex(150,550);
   vertex(650,550);
-  vertex(1000,800);
+  vertex(1500,800);
   endShape();
   fill(234,106,6);
   beginShape();
