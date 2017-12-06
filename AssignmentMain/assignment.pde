@@ -41,6 +41,13 @@ void carHud()
   vertex(650,550);
   vertex(1000,800);
   endShape();
+  fill(234,106,6);
+  beginShape();
+  vertex(-200,0);
+  vertex(80,100);
+  vertex(720,100);
+  vertex(1000,0);
+  endShape();
 }
 void draw()
 {
