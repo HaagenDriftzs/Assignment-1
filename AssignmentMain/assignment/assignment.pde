@@ -60,13 +60,32 @@ void carHud()
   vertex(720,100);
   vertex(1000,0);
   endShape();
+  //Spedometer
   fill(0);
   rect(150,570,180,50);
   fill(255,192,203);
   rect(160,600,10,10);
   rect(160,590,100,10);
-  textSize(22);
-  text("88",280,605);
+  textSize(18);
+  text("88",280,602);
+  //Vents
+  fill(0);
+  rect(100,55,40,30);
+  rect(670,55,40,30);
+}
+void infoScreen()
+{
+  rect(350,570,100,200);
+    String[] tips = {"Save the Presidents Daughter", "Decomission the Rogue Synth", "Disarm the Bomb", "Are These Messages Getting Annoying?"};
+    int index = int(random(tips.length));
+    fill(255);
+    text(tips[index],360,590,90,190); 
+}
+void BARscreen()
+{
+  rect(540,570,100,100);
+  int[] nums = {25,5,20,10,15};
+  
 }
 void draw()
 {
@@ -74,4 +93,6 @@ void draw()
   grid();
   sun();
   carHud();
+  infoScreen();
+  BARscreen();
 }
