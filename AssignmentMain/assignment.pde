@@ -32,9 +32,20 @@ void sun()
   stroke(234,106,6);
   arc(400, 400, 100, 100, PI, TWO_PI);
 }
+void carHud()
+{
+  fill(234,106,6);
+  beginShape();
+  vertex(-200,800);
+  vertex(150,550);
+  vertex(650,550);
+  vertex(1000,800);
+  endShape();
+}
 void draw()
 {
   background(0);
   grid();
   sun();
+  carHud();
 }

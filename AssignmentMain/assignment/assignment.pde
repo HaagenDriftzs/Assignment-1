@@ -35,7 +35,12 @@ void sun()
 void carHud()
 {
   fill(234,106,6);
-  line(200,600,800,600);
+  beginShape();
+  vertex(-200,800);
+  vertex(150,550);
+  vertex(650,550);
+  vertex(1000,800);
+  endShape();
 }
 void draw()
 {
