@@ -85,6 +85,10 @@ void BARscreen()
 {
   rect(540,570,100,100);
   int[] nums = {25,5,20,10,15};
+  for(int i=0; i<=nums.length;i++)
+  {
+    rect(i+4,0,nums[i],4);
+  }
   
 }
 void draw()
