@@ -8,7 +8,7 @@ void setup()
 float cx, cy;
 void grid()
 {
-  stroke(255);
+  stroke(255,192,203);
   /*for(int x = 0 ; x <= width ; x += 20)
   {
     line(x, height, cx, cy);
@@ -23,6 +23,7 @@ void grid()
     gap += 2;
   }
   //Road
+  stroke(255);
   line(320,550,390,400);
   line(480,550,410,400);
   fill(0);
@@ -45,14 +46,14 @@ void sun()
 }
 void carHud()
 {
-  fill(234,106,6);
+  fill(103,98,94);
   beginShape();
   vertex(-700,800);
   vertex(150,550);
   vertex(650,550);
   vertex(1500,800);
   endShape();
-  fill(234,106,6);
+  fill(103,98,94);
   beginShape();
   vertex(-200,0);
   vertex(80,100);
