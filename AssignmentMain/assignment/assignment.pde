@@ -32,9 +32,15 @@ void sun()
   stroke(234,106,6);
   arc(400, 400, 100, 100, PI, TWO_PI);
 }
+void carHud()
+{
+  fill(234,106,6);
+  line(200,600,800,600);
+}
 void draw()
 {
   background(0);
   grid();
   sun();
+  carHud();
 }
