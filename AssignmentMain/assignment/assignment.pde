@@ -82,6 +82,7 @@ void draw()
 
 //Functions that pick up key presses to activate the booleans
 //When key is pressed and released
+//This works with the crosshair class
 void keyPressed()
 {
   println("Key pressed");
