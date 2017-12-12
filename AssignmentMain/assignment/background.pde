@@ -32,6 +32,7 @@ class surroundings
       line(400,550,400,400);
     }
     //The sun is two half elipses with one slightly larger to give a real nice aesthetic.
+    //It is done by using two overlapping arcs that are different colours
     void sun()
     {
       fill(234,46,6);
