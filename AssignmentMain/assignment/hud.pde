@@ -1,4 +1,5 @@
 //The hud is everything that is for the car that doesnt have interation as they are static.
+//The design uses shaping with vertexes and other shapes to give the idea of the car
 class hud1
 {
   void carHud()
