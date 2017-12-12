@@ -4,6 +4,7 @@ class surroundings
 {
   float cx, cy;
   //Creates the grid to half of the page. I really like this design
+  //This gives the page that synth feeling I was really looking for.
     void grid()
     {
       stroke(255,192,203);
