@@ -30,7 +30,7 @@ class crosshair extends Speed
     timeDelta = 1 / 60f;
     power = 100;
   }
-  
+  //This registers the key presses for the crosshair to move  
   void update()
   {
     forward.x = sin(theta);
@@ -80,7 +80,7 @@ class crosshair extends Speed
 
   }
   
-  
+  //This creates the crosshairs design
   void render()
   {
     pushMatrix();
