@@ -1,3 +1,4 @@
+//This was a failed design that I was gonna put a moving barchart on the cars hud
 class barclass
 {
   int[]coordinates;
