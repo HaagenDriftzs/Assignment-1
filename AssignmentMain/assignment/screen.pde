@@ -3,6 +3,7 @@ I had alot of hope for this but in the end it didnt turn out quite the way
 I wanted it to. It was orignaly supposed to change a message on each click as theyre is a 
 array of strings. In the end I had to make them show then stop the program.
 */
+//I will revisit this
 class screenInfo
 {
   void infoScreen()
