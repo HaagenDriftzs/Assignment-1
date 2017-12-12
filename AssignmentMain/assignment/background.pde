@@ -1,4 +1,5 @@
 //This class is used to create the grid in the background and the road. It also creates the sun with the two half eclipses
+//It is designed for everything in the background
 class surroundings
 {
   float cx, cy;
