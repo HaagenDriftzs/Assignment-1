@@ -17,6 +17,7 @@ class surroundings
         gap += 2;
       }
       //Road
+      //Simple road that gets parts from eahc other the further you get away from the middle
       stroke(255);
       line(320,550,390,400);
       line(480,550,410,400);
