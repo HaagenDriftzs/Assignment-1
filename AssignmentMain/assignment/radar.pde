@@ -1,6 +1,8 @@
-//My God this radar was tough to do. I got a working outline but wish I could have improved on it.
-//The random system doesnt work the way I wanted too where I wanted them to spawn in different locations but just couldnt get it to work
-//properly but I am pleased with it as it is.
+/*
+My God this radar was tough to do. I got a working outline but wish I could have improved on it.
+The random system doesnt work the way I wanted too where I wanted them to spawn in different locations but just couldnt get it to work
+properly but I am pleased with it as it is.
+*/
 class radarhud
 {
   void radar()
